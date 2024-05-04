@@ -1,0 +1,44 @@
+/* Estilos del botón */
+.dropbtn {
+    background-color: #4caf4f00;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropbtn img {
+    width: 100px; /* Ancho deseado */
+    height: 100px; /* Alto deseado */
+}
+/* Estilos del contenedor del menú desplegable */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Estilos del contenido del menú desplegable */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Estilos de los enlaces del menú desplegable */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Cambiar color de enlace al pasar el mouse */
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+/* Mostrar el menú desplegable cuando se pasa el mouse sobre él */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
